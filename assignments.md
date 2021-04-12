@@ -18,6 +18,7 @@ We are big believers in testing and continuous integration. As such, we want you
 * Contain both Unit and Integration Tests
 * Basic linting (Bonus would be to add code coverage)
 * Has some form of Continuous Integration pipeline with linting, unit and integration testing either through GitHub Actions or TravisCI
+* Write an informative and descriptive README explaining what your built, why you built it, how to set it up and how to use it.
 
 ### High-Level User Stories to Cover
 User Story 1. As a Pokemon fan, I would like to search a catalog of Pokemon characters (Pokedex) by their name or by some of the characters in their name in order to return one or more Pokemon and their trading card attributes.
