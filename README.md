@@ -73,4 +73,4 @@ Follow us here:
 * [Twitter](https://twitter.com/SymmetrySystems)
 * [LinkedIn](https://www.linkedin.com/company/symmetry-systems-inc/)
 * [Crunchbase](https://www.crunchbase.com/organization/symmetry-systems)
-* [SymmetrySystems Web Site](https://www.symmetry-systems.com/)
+* [Symmetry Systems Web Site](https://www.symmetry-systems.com/)
