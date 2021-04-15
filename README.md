@@ -62,12 +62,12 @@ Candidates applying for one of our open positions are given the option of workin
 If you do choose to work on a take-home assignment, we as that you complete your assignment in a week or less. Our assignments are structured to take roughly 2-4 hours based on your skill level. The current take home assignments can be [found here](assignments.md).
 
 # A Little Bit of History About Symmetry
-The founding members of Symmetry Systems came out of the University Texas at Austin Computer Science Department. Our founders, [Mohit](https://www.linkedin.com/in/mohit-tiwari8/) and [Casen](https://www.linkedin.com/in/casen-hunger-780765a2/). The worked closely at UT Austin in the [Spark Research Lab](http://spark.ece.utexas.edu/). Initially, the pair launched a product called Blox, which was a service mesh with built-in privacy and security services for application creators and users.
+The founding members of Symmetry Systems came out of the Electrical and Computer Engineering department at the University Texas at Austin. Our founders, [Mohit](https://www.linkedin.com/in/mohit-tiwari8/) and [Casen](https://www.linkedin.com/in/casen-hunger-780765a2/). They worked closely at UT Austin in the [Spark Research Lab](http://spark.ece.utexas.edu/). Initially, the pair launched a product called Blox, which was a service mesh with built-in privacy and security services for application creators and users, and convinced a few other friends and colleagues to start up a new company called Symmetry Systems.
 
 <a href="images/image_from_ios.jpeg" title="Meet our team!">
 <img src="images/image_from_ios.jpeg" alt="Meet our team!"></a>
 
-The pair pivoted in late 2018 and convinced a few other friends and colleagues to start up a new company called Symmetry Systems. It's here at Symmetry that the team has incubated and brought to market Symmetry DataGuard. Symmetry is now a venture backed software security provider with members across the United States and globally in Australia and India. Our journey is just beginning. We encourage you to consider joining us!   
+It's here at Symmetry that the team has collaborated closely with cloud-native design partners and received feedback from over a hundred organizations to incubate and bring to market Symmetry DataGuard. Symmetry is now a venture-backed software security provider with members across the United States and globally in Australia and India. Our journey is just beginning. We encourage you to consider joining us!   
 
 Follow us here:
 * [Twitter](https://twitter.com/SymmetrySystems)
