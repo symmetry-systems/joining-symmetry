@@ -57,7 +57,7 @@ Candidates applying for one of our open positions are given the option of workin
 
 * A hands-on technical interview with members of the Symmetry engineering team.
 * Present a relevant/applicable OSS project you worked in the past.
-* Take a skills assessment via Triplybyte.
+* Take a skills assessment via Triplebyte.
 
 If you do choose to work on a take-home assignment, we as that you complete your assignment in a week or less. Our assignments are structured to take roughly 2-4 hours based on your skill level. The current take home assignments can be [found here](assignments.md).
 
