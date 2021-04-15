@@ -35,7 +35,7 @@ The rest of your first week will be on-boarding. We will have you meet the entir
 
 We move pretty quick as a development team. In less than a month you will be fully integrated into our agile ceremonies making value-added contributions to our product. You’ll be taking part in design discussions, you’ll be a real contributor to the team, as well as join all product-related meetings that bring new ideas and make an impact. A member of the team will be a mentor to get you not only acclimated, but comfortable to make proactive recommendations to our product and processes.
 
-Within 3 months time, you will be a full fledge contributor in terms of development and team initiatives. We might have added a couple teammates along the way. You will likely take on some mentoring responsibilities as well.
+Within 3 months time, you will be a full fledged contributor in terms of development and team initiatives. We might have added a couple teammates along the way. You will likely take on some mentoring responsibilities as well.
 
 After the first 3 months here at Symmetry, you might feel like an old timer by now. Things will come easy. You will feel engaged. You will feel empowered. Most importantly, you will feel like you are a part of something really special!
 
