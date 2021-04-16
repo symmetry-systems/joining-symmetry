@@ -21,7 +21,7 @@ We are big believers in testing and continuous integration. As such, we want you
 * Write an informative and descriptive README explaining what your built, why you built it, how to set it up and how to use it.
 
 ### High-Level User Stories to Cover
-User Story 1. As a Pokemon fan, I would like to search a catalog of Pokemon characters (Pokedex) by their name or by some of the characters in their name in order to return one or more Pokemon and their trading card attributes.
+User Story 1: As a Pokemon fan, I would like to search a catalog of Pokemon characters (Pokedex) by their name or by some of the characters in their name in order to return one or more Pokemon and their trading card attributes.
 
 User Story 2: As a Pokemon fan, I would like know how many (count) unique Pokemon are in the Pokedex, as well as unique Pokemon Types and Pokemon Species.
 
@@ -30,6 +30,45 @@ User Story 3: As a Pokemon fan, I would like to filter and narrow my search crit
 User Story 4: As a Pokemon fan, I would like to see pictures of the Pokemon characters with some identifying attributes (trading card information) about the creatures presented in the screen.
 
 User Story 5: As a Pokemon fan, I would like to sort the order of the Pokemon characters based on one or more identifying attributes about the character.
+
+## Backend Developers
+Our backend project is designed to demonstrate your comfort level building a small web application interacting with a pre-existing data set (relational or non-relational). 
+
+You need to demonstrate an understanding of ORM for persistence purposes with any data store that you choose. We also want to see some basic test automation (Unit and Integration).
+
+We would like you to pick a minimum of one or two data sets from the list below which can be combined into a single, shareable data set in your data store. You will need to ingest the data through some means into your data store as part of your build step.
+
+*There are tons of amazing open and free data sets to play with. Here are a few for inspiration:*
+
+* [Data.gov](https://www.data.gov/open-gov/)
+* [NYC Open Data](https://nycopendata.socrata.com/)
+* [Austin, TX Data](https://data.austintexas.gov/browse)
+* [AWS Open Data](https://aws.amazon.com/public-data-sets/)
+* [OpenData Baltimore](https://data.baltimorecity.gov/)
+
+We are big believers in testing and continuous integration. As such, we want you to add linting, unit tests and integration tests to a CI pipeline.  
+
+### Project Requirements
+* Available languages to program: Python or Go.
+* Import data as part of the build step.
+* Make use of an ORM for loaders/persisters.
+* Include logging and error handling.
+* Your code should be DRY, maintainable and readable.
+* 100% automated: Should be simple as a clone and a few commands to run.
+* Simple, yet robust API for CRUD (Create, Read, Update and Delete): Get, Post, Put and Delete.   
+* Has some form of Continuous Integration pipeline with linting, unit and integration testing either through GitHub Actions or TravisCI.
+* Write an informative and descriptive README explaining what your built, why you built it, how to set it up and how to use it.
+
+### High-Level User Stories to Cover
+User Story 1: As a user, I would like to return or fetch all records of my data set.
+
+User Story 2: As a user, I would like to return or fetch some records of my data set when I provide additional identifying information about the data set.
+
+User Story 3: As a user, I would like create a new record in the data set.
+
+User Story 4: As a user, I would like to delete a single record in the data set.
+
+User Story 5: As as user, I would like to update/modify a single record in the data set.
 
 # Preparing for your Symmetry interview
 
