@@ -32,43 +32,30 @@ User Story 4: As a Pokemon fan, I would like to see pictures of the Pokemon char
 User Story 5: As a Pokemon fan, I would like to sort the order of the Pokemon characters based on one or more identifying attributes about the character.
 
 ## Backend Developers
-Our backend project is designed to demonstrate your comfort level building a small web application interacting with a pre-existing data set (relational or non-relational). 
+Our backend project is designed to demonstrate your comfort level building a small web service interacting with a published API fronting a rich data set. It is also a chance for you to interact with some of the technologies that we are presently using at Symmetry on a day to day basis. 
 
-You need to demonstrate an understanding of ORM for persistence purposes with any data store that you choose. We also want to see some basic test automation (Unit and Integration).
+We are looking for you to build a small service that interacts with the [Pokemon API](https://pokeapi.co/) which is fully annotated [here](https://pokeapi.co/docs/v2). The API is easy to understand and easy to work with. It is not a perfect API as it will have some constraints which are to be expected with any API you work with. 
 
-We would like you to pick a minimum of one or two data sets from the list below which can be combined into a single, shareable data set in your data store. You will need to ingest the data through some means into your data store as part of your build step.
+This small web service is intented to be a data pipeline that calls the Pokemon API and streams/persists the data into an ElasticSearch index. As the data is constantly expanding, the service should be able to increment the data set with subsequent service calls. How you implement this approach is 100% completely up to you. All that we ask is that the data grow in an iterative fashion and not have to be purged and injested from 0 records each time.
 
-*There are tons of amazing open and free data sets to play with. Here are a few for inspiration:*
-
-* [Data.gov](https://www.data.gov/open-gov/)
-* [NYC Open Data](https://nycopendata.socrata.com/)
-* [Austin, TX Data](https://data.austintexas.gov/browse)
-* [AWS Open Data](https://aws.amazon.com/public-data-sets/)
-* [OpenData Baltimore](https://data.baltimorecity.gov/)
-
-We are big believers in testing and continuous integration. As such, we want you to add linting, unit tests and integration tests to a CI pipeline.  
+Lastly, we want you to provide a simple data access API via REST to support the second user story below. The Pokemon API that is publically accessible is a good model or reference for what we want to achieve. The only difference is that we want this API to interface with ElasticSearch that is populated as part of the first user story.
+ 
 
 ### Project Requirements
-* Available languages to program: Python or Go.
-* Import data as part of the build step.
-* Make use of an ORM for loaders/persisters.
+* Available languages to program: Java (SpringBoot), Python (Flask) or Go (Go Standard).
+* ElasticSearch as the data store.
+* Fully containerized via docker.
+* Use the [Open API specification](https://spec.openapis.org/oas/v3.1.0) for annotating your API.
 * Include logging and error handling.
 * Your code should be DRY, maintainable and readable.
-* 100% automated: Should be simple as a clone and a few commands to run.
-* Simple, yet robust API for CRUD (Create, Read, Update and Delete): Get, Post, Put and Delete.   
-* Has some form of Continuous Integration pipeline with linting, unit and integration testing either through GitHub Actions or TravisCI.
+* 100% automated: Should be simple as a clone and a simple command to run.
+* Consider incorporating some form of Continuous Integration pipeline with linting, unit and integration testing either through GitHub Actions or TravisCI.
 * Write an informative and descriptive README explaining what your built, why you built it, how to set it up and how to use it.
 
 ### High-Level User Stories to Cover
-User Story 1: As a user, I would like to return or fetch all records of my data set.
+User Story 1: As a Pokemon fan, I would like to ingest the individual records of the entire Pokemon collection into my own Data Lake so that I can build my own Pokedex API. The collection expands in size from time to time, so we should be able to ingest new records (characters) whenever a new record is accessible from the API. While I'm very concerned about performance, I am more focused a robust and complete data set. My goal is to not overwrite the data set each time I ingest, but rather increment it as the API is checked and compared to see if the result set has grown. In the unlikely event the result set has shrunk, there is not need to identify which record should be purged. We will simply retain any records that are no longer accessible from the public API.
 
-User Story 2: As a user, I would like to return or fetch some records of my data set when I provide additional identifying information about the data set.
-
-User Story 3: As a user, I would like create a new record in the data set.
-
-User Story 4: As a user, I would like to delete a single record in the data set.
-
-User Story 5: As as user, I would like to update/modify a single record in the data set.
+User Story 2: As a Pokemon fan, I would like to return or fetch Pokemon records in my own API so that can access the Data Lake from the proceeding User Story. While the Pokemon public API is consummable by my UI team, I want to build my own data access API using my own ElasticSearch data lake.
 
 # Preparing for your Symmetry interview
 
